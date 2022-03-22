@@ -1,0 +1,31 @@
+* {
+  color: black;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #FED90F;
+} 
+
+h2 {
+  font-size: 50pxpx;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 30px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+button:hover {
+  font-weight: bold;
+  cursor: grabbing;
+}
